@@ -1,0 +1,41 @@
+h1 {
+    font-size: 65px;
+    color: #eb5e0b;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+    font-style: italic;
+
+}
+
+#preto{
+    background-color: black;
+    color: white;
+}
+
+#vermelho{
+    background-color: red;
+    color: white;
+}
+
+#cinza{
+    background-color: silver;
+    color: white
+}
+
+#amarelo{
+    background-color: yellow;
+    color: white;
+}
+
+p{
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.favorita{
+    background-color: black;
+}
