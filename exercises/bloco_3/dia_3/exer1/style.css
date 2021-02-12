@@ -12,12 +12,12 @@
   }
 
   .padding {
-      padding: 20px;
+      padding: 50px;
   /* insira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
   }
 
   .margin {
-      margin: 30px;
+      margin: 100px;
   /* insira aqui uma margem de 30px na classe abaixo para aplicá-la aos itens C e D */
   }
 
