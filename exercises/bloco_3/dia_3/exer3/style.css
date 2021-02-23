@@ -1,0 +1,12 @@
+h1, p{
+    text-align: center;
+    color: brown;
+}
+
+li:hover{
+  background-color: burlywood;
+}
+
+li:active{
+    color: crimson;
+}
