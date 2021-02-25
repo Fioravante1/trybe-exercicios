@@ -9,4 +9,4 @@ for(let index = 0; index < numbers.length; index++){
 }
 console.log(maiorNumero);
 
-//Resposta: Para a resolução do desafio foi feito um laço de repetição onde foi comparado se o número em qual o laço estava percorrendo era mior que o outro. Ideia para solução tirada desse link:https://pt.stackoverflow.com/questions/35202/como-saber-o-maior-valor-de-um-array
+//Resposta: Para a resolução do desafio foi feito um laço de repetição onde foi comparado se o indice em qual o laço estava percorrendo era mior que o indice anterior. Ideia para solução tirada desse link:https://pt.stackoverflow.com/questions/35202/como-saber-o-maior-valor-de-um-array
