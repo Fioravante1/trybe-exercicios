@@ -1,3 +1,3 @@
 # Trybe Exercícios/Projetos
 
-Repositório com exercícios e projetos realizado durante toda a formação de desenvolvedor Web Full-Stack na Trybe.
+:fa-code:*Repositório com todas as atividades de aprendizagem desenvolvidas por **Fioravante Barbosa Chiozzi** enquanto estuda na Trybe!*:fa-code:
