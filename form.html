@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário currículo</title>
 </head>
 <body>
@@ -12,8 +13,9 @@
     </header>
 
     <form action="">
-        <legend>Dados pessoais:</legend>
+       <div>
         <fieldset>
+            <legend>Dados pessoais:</legend>
             <label for="name">Nome:</label><br>
             <input type="text" id="name" maxlength="40" required><br>
             <label for="email">Email:</label><br>
@@ -27,12 +29,28 @@
             <label for="estado">Estado:</label><br>
             <select name="lista-estado" id="estado">
                 <option>São Paulo</option>
-            </select><br>
-            <input type="radio" id="casa" required>
-            <label for="casa">Casa.</label>
-            <input type="radio" id="apartamento" required>
-            <label for="apartamento">Apartamento.</label>
+            </select><br><br>
+            <input type="radio" name="morada" id="casa" required>
+            <label for="morada">Casa.</label>
+            <input type="radio" name="morada"id="apartamento" required>
+            <label for="morada">Apartamento.</label>
         </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Expêriencia:</legend>
+            <label for="resumo"></label>
+            <label for="resumo">Resumo do curriculo:</label><br>
+            <textarea name="resumo-currilo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea><br>
+            <label for="experiencia">Último cargo:</label><br>
+            <input type="text" name="ultima-experiencia" id="experiencia" required><br>
+            <label for="descrição">Descrição do cargo:</label><br>
+            <input type="text" name="descrição-cargo" id="descrição" maxlength="500" required><br>
+            <label for="data-inicio">Data de início:</label><br>
+            <input type="date" name="data-inicio" id="data-inicio" required><br>
+        </fieldset>
+    </div><br>
+    <input type="reset">
     </form>
 </body>
 </html>
