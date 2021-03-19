@@ -40,6 +40,16 @@ figure {
     background-color: antiquewhite;
     display: flex;  
     flex-wrap: wrap;
-
    }
+}
+
+@media screen and (min-width: 1290px) {
+    body {
+        background-color: rgb(209, 209, 39);
+        margin: 60px;
+        max-width: 900px;
+    }
+    p {
+        font-size: 35px;
+    }
 }
