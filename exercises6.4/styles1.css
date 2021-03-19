@@ -1,0 +1,7 @@
+.change {
+    align-self: center;
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: stretch;
+    align-self: baseline;
+}
