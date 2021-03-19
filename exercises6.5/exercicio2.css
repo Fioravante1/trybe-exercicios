@@ -62,3 +62,46 @@ html {
           margin-right: 7px;
       }
   }
+
+  @media screen and (min-width: 768px) {
+      header {
+          background-color: rgb(4, 4, 134);
+      }
+
+      header p {
+          font-size: 50px;
+      }
+
+      aside h2 {
+        font-size: 45px;
+      }
+
+      ul li {
+        font-size: 35px;
+      }
+
+      article h1 {
+          font-size: 45px;
+      }
+
+      article p {
+          font-size: 35px;
+          margin-left: 20px;
+          margin-right: 7px;
+      }
+
+      footer {
+        background-color: rgb(221, 177, 123);
+    }
+
+      footer h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+     footer p {
+        font-size: 25px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+  }
