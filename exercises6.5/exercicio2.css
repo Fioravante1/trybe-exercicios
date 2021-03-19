@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  @media screen and (min-width: 360px) {
+      header {
+          background-color: black;
+          width: 100%;
+      }
+      header p {
+          font-size: 25px;
+          text-align: center;
+          color: white
+      }
+
+      header nav ul {
+          display: flex;
+          justify-content: space-around;
+          color: white;
+      }
+
+      aside {
+          margin: 10px;
+          padding: 5px;
+      }
+
+      aside h2 {
+          text-align: center;
+          font-size: 20px;
+      }
+
+      ul li {
+          padding: 3px;
+      }
+
+      article h1 {
+          font-size: 25px;
+          margin-left: 7px;
+      }
+
+      article p {
+          font-size: 20px;
+          margin-left: 7px;
+          margin-right: 7px;
+      }
+
+      footer {
+          background-color: bisque;
+      }
+
+      footer h3 {
+          margin-top: 10px;
+          text-align: center;
+      }
+
+      footer p {
+          font-size: 15px;
+          margin-left: 7px;
+          margin-right: 7px;
+      }
+  }
