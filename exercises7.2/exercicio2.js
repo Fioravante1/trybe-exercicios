@@ -34,11 +34,12 @@ const order = {
   },
 };
 
-const customerInfo = (order) => {
-  // Adicione abaixo as informações necessárias.
-  const newPedido = `Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, telefone: ${order.phoneNumber}, ${order.address.street}, ${order.address.number}, Ap: ${order.address.apartment}.`
-  return newPedido
+order.name = 'Luiz Silva';
+order.payment.total = 50;
 
+const orderModifier = (order) => {
+  const novoPedido = `Olá ${order.name}, o total do seu pedido de muzzarella, calebresa e ${order.order.drinks.coke.type} é R$${order.payment.total}`
+  return novoPedido;
 }
 
-console.log(customerInfo(order));
+console.log(orderModifier(order));
