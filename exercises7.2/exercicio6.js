@@ -17,3 +17,7 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+console.log(Object.values(lesson1));
+console.log(Object.values(lesson2));
+console.log(Object.values(lesson3));
