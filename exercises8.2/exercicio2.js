@@ -63,7 +63,7 @@ const books = [
   },
 ];
 
-
+// Solução feita com a ajuda da explicação do video do zeze
 function smallerName() {
   let nameBook;
   
