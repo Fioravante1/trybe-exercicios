@@ -63,13 +63,18 @@ const books = [
   },
 ];
 
-const smallerName = (book) => {
+
+function smallerName() {
   let nameBook;
-  if (!nameBook || book.name.length < nameBook.length){
-    nameBook = book.name;
-  }
+  
+  books.forEach((book) => {
+    if (!nameBook || book.name.length < nameBook.length) {
+      nameBook = book.name;
+    }
+  });
+  // Variável nameBook que receberá o valor do menor nome;
   return nameBook;
 }
 
-console.log(smallerName);
+console.log(smallerName());
 assert.strictEqual(smallerName(), 'Duna');
