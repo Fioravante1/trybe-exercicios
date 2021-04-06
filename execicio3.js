@@ -77,7 +77,7 @@ function averageAge() {
 
 const expectedResult = 43;
 
-const funcaoMedia = (accumulator, current) => Math.round(accumulator + (current.releaseYear - current.author.birthYear) / books.length);
+const funcaoMedia = (accumulator, current) => ((accumulator + (current.releaseYear - current.author.birthYear)) / books.length);
 
 const averageAge = books.reduce(funcaoMedia, 0); 
 
