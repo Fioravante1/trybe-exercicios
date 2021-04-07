@@ -40,3 +40,5 @@ const filteredPeople = filterPeople(people);
 
 assert.deepStrictEqual(filteredPeople[0], { name: 'Nicole', bornIn: 1992, nationality: 'Australian' });
 assert.deepStrictEqual(filteredPeople[1], { name: 'Toby', bornIn: 1901, nationality: 'Australian' });
+
+// Solução encontrada com a ajuda do gabarito.
