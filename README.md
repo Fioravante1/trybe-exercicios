@@ -2,4 +2,5 @@
 
 <img src="https://github.com/Fioravante1/trybe-exercicios/blob/master/trybeBackground.png" />
 
-*Repositório com todas as atividades de aprendizagem desenvolvidas por **Fioravante Barbosa Chiozzi** enquanto estuda na Trybe!*
+<h2 align="center">Repositório com todas as atividades de aprendizagem desenvolvidas por Fioravante Barbosa Chiozzi enquanto estuda na Trybe!</h2>
+
