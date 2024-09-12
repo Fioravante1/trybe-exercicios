@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  @media screen and (min-width: 360px) {
+      header {
+          background-color: black;
+          width: 100%;
+      }
+      header p {
+          font-size: 25px;
+          text-align: center;
+          color: white
+      }
+
+      header nav ul {
+          display: flex;
+          justify-content: space-around;
+          color: white;
+      }
+
+      aside {
+          margin: 10px;
+          padding: 5px;
+      }
+
+      aside h2 {
+          text-align: center;
+          font-size: 20px;
+      }
+
+      ul li {
+          padding: 3px;
+      }
+
+      article h1 {
+          font-size: 25px;
+          margin-left: 7px;
+      }
+
+      article p {
+          font-size: 20px;
+          margin-left: 7px;
+          margin-right: 7px;
+      }
+
+      footer {
+          background-color: bisque;
+      }
+
+      footer h3 {
+          margin-top: 10px;
+          text-align: center;
+      }
+
+      footer p {
+          font-size: 15px;
+          margin-left: 7px;
+          margin-right: 7px;
+      }
+  }
+
+  @media screen and (min-width: 768px) {
+      header {
+          background-color: rgb(4, 4, 134);
+      }
+
+      header p {
+          font-size: 50px;
+      }
+
+      aside h2 {
+        font-size: 45px;
+      }
+
+      ul li {
+        font-size: 35px;
+      }
+
+      article h1 {
+          font-size: 45px;
+      }
+
+      article p {
+          font-size: 35px;
+          margin-left: 20px;
+          margin-right: 7px;
+      }
+
+      footer {
+        background-color: rgb(221, 177, 123);
+    }
+
+      footer h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+     footer p {
+        font-size: 25px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    header {
+        background-color: rgb(52, 134, 4);
+    }
+
+    header p {
+        font-size: 70px;
+    }
+
+    aside h2 {
+      font-size: 65px;
+    }
+
+    ul li {
+      font-size: 45px;
+      
+    }
+
+    article h1 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    article p {
+        font-size: 45px;
+        margin-left: 20px;
+        margin-right: 7px;
+    }
+
+    footer {
+      background-color: rgb(97, 55, 4);
+  }
+
+    footer h3 {
+      font-size: 40px;
+      text-align: center;
+      color: aliceblue;
+  }
+
+   footer p {
+      font-size: 35px;
+      margin-left: 7px;
+      margin-right: 7px;
+      color: aliceblue;
+  }
+}

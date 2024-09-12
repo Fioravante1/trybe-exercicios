@@ -1,0 +1,55 @@
+body {
+  font-size: 20px;
+  margin: 30px;
+}
+h1 {
+ font-size: 50px;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    padding: 30px;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+   body {
+    background-color: aquamarine;
+    margin: 40px;
+   } 
+
+   h1 {
+       font-size: 30px;
+   }
+
+   p {
+       font-size: 25px;
+   }
+
+   img {
+       width: 200px;
+   }
+
+   div {
+    background-color: antiquewhite;
+    display: flex;  
+    flex-wrap: wrap;
+   }
+}
+
+@media screen and (min-width: 1290px) {
+    body {
+        background-color: rgb(209, 209, 39);
+        margin: 60px;
+        max-width: 900px;
+    }
+    p {
+        font-size: 35px;
+    }
+}
