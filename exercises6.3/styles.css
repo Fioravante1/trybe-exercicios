@@ -1,0 +1,21 @@
+  .box-container {
+    display: flex;
+    /* ADICIONE AQUI SEUS TESTES */
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;   /* Por padão */
+    flex-direction: row-reverse;
+
+    flex-wrap: nowrap;   
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    
+    flex-flow: column;
+    flex-flow: column-reverse;
+    flex-flow: nowrap;
+    flex-flow: row;
+    flex-flow: row-reverse;
+    flex-flow: wrap-reverse;
+
+    
+  }

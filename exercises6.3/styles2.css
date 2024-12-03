@@ -1,0 +1,8 @@
+.box-conteiner {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;  /* Valor padrão */
+    align-items: baseline
+}
